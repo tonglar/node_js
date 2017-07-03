@@ -1,0 +1,28 @@
+{
+  "name": "case_inputs",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mysql": {
+      "table": "case_inputs"
+    }
+  },
+  "properties": {
+    "created_at": {
+      "type": "date",
+      "defaultFn": "now"
+    },
+    "updated_at": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+
+  },
+  "acls": [
+
+  ],
+  "methods": {}
+}
